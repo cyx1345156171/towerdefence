@@ -20,6 +20,8 @@ private:
     int x1 = 0, y1 = 0;     //最左上角坐标
     int width1, height1; //整体宽高
     QPixmap choicetu;//选择框图片路径
+    QPixmap level;  //升级图片
+
 };
 
 #endif // CHOICE_H

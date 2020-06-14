@@ -26,7 +26,9 @@ public:
     void newbullet();             //新建子弹
     void movebullet();              //子弹移动函数
     void setpicture(QPixmap x1);
-
+    bool ishere(int,int);
+    void sethasaqi(bool);
+    bool returnhasaqi();
 
 private:
   int x,y;          //坐标
@@ -39,6 +41,7 @@ private:
   QString bullet;  //子弹的图片
   QVector<zidan*> bulletvector;    //子弹数组
   int rangle;// 塔的角度
+  bool  hasaqi=false;  //用于鼠标点击事件
 };
 
 #endif // TA_H

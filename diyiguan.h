@@ -14,6 +14,7 @@
 #include<QMouseEvent>
 #include"diren.h"
 #include"wayzu.h"
+#include"QTimer"
 
 
 namespace Ui {
@@ -33,8 +34,12 @@ public:
     void paintbackground(QPainter &);
     void paintta(QPainter &);
     void paintchoice(QPainter &);
-    bool move();
+    void paintshengji(QPainter &);
+    void paintchaichu(QPainter &);
     ~diyiguan();
+    void setwaypoint();    //设置路径点
+    void paintdiren(QPainter &);    //画敌人
+    void painthouse(QPainter &);    //画房子
 
 private:
     Ui::diyiguan *ui;
@@ -44,6 +49,13 @@ private:
     bool hasagei=false;     //用于鼠标点击事件
     QVector<diren*> monster;
     QVector<giao*> way;
+    int time=0;//用于控制放怪的数量
+    fouranniu shengji;
+    fouranniu chaichu;
+
+private slots:
+    void move();           //怪物移动
+    void loaddiren();      //初始化敌人
 };
 
 #endif // DIYIGUAN_H

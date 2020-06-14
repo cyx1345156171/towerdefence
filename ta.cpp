@@ -64,3 +64,18 @@ void ta::setpicture(QPixmap x1)
 {
     tapath=x1;
 }
+bool ta::ishere(int x1, int y1)
+{
+    if((x1>=x)&&(x1<=x+80)&&(y1>=y)&&(y1<=y+80))
+        return true;
+    else
+        return false;
+}
+bool ta::returnhasaqi()
+{
+    return hasaqi;
+}
+void ta::sethasaqi(bool xxx)
+{
+    hasaqi=xxx;
+}

@@ -24,7 +24,7 @@ int taposition::getpy()
 }
 bool taposition::ifishere(int x, int y)
 {
-    if((x>=px)&&(x<=px+100)&&(y>=py)&&(y<=py+100))
+    if((x>=px)&&(x<=px+80)&&(y>=py)&&(y<=py+80))
         return true;
     else
         return false;

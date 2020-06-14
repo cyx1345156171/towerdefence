@@ -10,9 +10,9 @@ void choice::setchoice(int m1, int n1)
            //上面的按钮
       button[1].setanniu(x1,y1+80,QString());
             //左边的按钮
-      button[2].setanniu(x1+80,y1+80,QString());
+      button[2].setanniu(x1+160,y1+80,QString());
               //右边的按钮
-      button[3].setanniu(x1+80,y1+80,QString());
+      button[3].setanniu(x1+80,y1+160,QString());
              //下面的按钮
       display=true;
 }

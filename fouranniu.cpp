@@ -6,7 +6,7 @@ fouranniu::fouranniu()
 }
 bool fouranniu::iscointain(int x1, int y1)
 {
-    if((x1>=x)&&(x1<=x+100)&&(y1>=y)&&(y1<=y+100))
+    if((x1>=x)&&(x1<=x+80)&&(y1>=y)&&(y1<=y+80))
         return true;
     else
         return false;
@@ -28,4 +28,12 @@ int fouranniu::gety()
 QPixmap fouranniu::gettu()
 {
     return tu;
+}
+void fouranniu::setdisplay(bool x)
+{
+    display=x;
+}
+bool fouranniu::getdisplay()
+{
+    return display;
 }

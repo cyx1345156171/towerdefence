@@ -6,5 +6,12 @@
         <file>common.png</file>
         <file>0.png</file>
         <file>../../背景.jpg</file>
+        <file>../../怪物.jpg</file>
+        <file>../../chaichai.jpg</file>
+        <file>../../upup.jpg</file>
+        <file>../../1号怪.jpg</file>
+        <file>../../2号怪.jpg</file>
+        <file>../../3号怪.jpg</file>
+        <file>../../女神.png</file>
     </qresource>
 </RCC>
