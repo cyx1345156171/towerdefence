@@ -79,7 +79,7 @@ void ta::newbullet()
         bool temporary1;
          counter++;
           bullet *lishi=new bullet(x+40,y+40,id);
-         if( target->getx()==x||counter<3||!(target->getx()+30-lishi->getx()-10)) //除数为0时
+         if( target->getx()==x||counter<2||!(target->getx()+30-lishi->getx()-10)) //除数为0时
          {
              return;
          }

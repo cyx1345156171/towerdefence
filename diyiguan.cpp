@@ -478,7 +478,7 @@ void diyiguan::move()
 void diyiguan::loaddiren()
 {
     time++;
-    if(time>=5&&time<=10)
+    if(time>=5&&time<=20&&lifehealth>0)
     {
         if(levelnumber==1)
         {
@@ -489,7 +489,7 @@ void diyiguan::loaddiren()
     monster.push_back(new diren(50,750,0));
         }
     }
-    if(time>10&&time<=15)
+    if(time>20&&time<=35&&lifehealth>0)
     {
         if(levelnumber==1)
         {
@@ -500,29 +500,29 @@ void diyiguan::loaddiren()
     monster.push_back(new diren(50,750,1));
         }
     }
-    if(time==18)
+    if(time==43)
     {
     updatewave(1);
     }
-    if(time>=18&&time<=25)
+    if(time>=43&&time<=60&&lifehealth>0)
     {
          if(levelnumber==1)
          monster.push_back(new diren(340,750,1));
          else
          monster.push_back(new diren(50,750,1));
     }
-    if(time==30)
+    if(time==70)
     {
     updatewave(1);
     }
-    if(time>29&&time<=35)
+    if(time>69&&time<=80&&lifehealth>0)
     {
          if(levelnumber==1)
          monster.push_back(new diren(340,750,1));
          else
          monster.push_back(new diren(50,750,1));
     }
-    if(time>=36&&time<=40)
+    if(time>=81&&time<=90&&lifehealth>0)
     {
         if(levelnumber==1)
         {
@@ -533,7 +533,7 @@ void diyiguan::loaddiren()
     monster.push_back(new diren(50,750,2));
         }
     }
-    if(monster.empty()&&time>40&&lifehealth>0)
+    if(monster.empty()&&time>90&&lifehealth>0)
     {
         win->show();
     }
