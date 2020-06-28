@@ -37,14 +37,14 @@ SOURCES += \
     fouranniu.cpp \
     slowtower.cpp \
     powertower.cpp \
-    speedtower.cpp
+    speedtower.cpp \
+    bullet.cpp
 
 HEADERS += \
     taposition.h \
     start.h \
     ta.h \
     diren.h \
-    bulletzu.h \
     wayzu.h \
     diyiguan.h \
     choice.h \
@@ -52,7 +52,8 @@ HEADERS += \
     fouranniu.h \
     slowtower.h \
     powertower.h \
-    speedtower.h
+    speedtower.h \
+    bullet.h
 
 FORMS += \
     start.ui \
@@ -60,7 +61,19 @@ FORMS += \
     diyiguan.ui
 
 
-RESOURCES += \
-    Resource.qrc
 
 DISTFILES +=
+
+RESOURCES += \
+    qrc.qrc
+
+
+
+
+
+
+
+
+
+
+

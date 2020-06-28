@@ -1,6 +1,8 @@
 #include "speedtower.h"
 
-speedtower::speedtower(int x1,int y1):ta(x1,y1)
+speedtower::speedtower(int x1,int y1):ta(x1,y1,3)
 {
-  setpicture(QPixmap(":/common.png"));
+  setpicture(QPixmap(":/tu/four1.jpg"));
+  setran(200);
+  setatt(25);
 }

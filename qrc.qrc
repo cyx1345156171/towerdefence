@@ -1,0 +1,32 @@
+<RCC>
+    <qresource prefix="/">
+        <file>music/begin.mp3.mp3</file>
+        <file>music/jojo.mp3</file>
+        <file>tu/back2.png</file>
+        <file>tu/background.jpg</file>
+        <file>tu/Bg.png</file>
+        <file>tu/chaichai.jpg</file>
+        <file>tu/cover1.jpg</file>
+        <file>tu/diogod.jpg</file>
+        <file>tu/first1.jpg</file>
+        <file>tu/first2.jpg</file>
+        <file>tu/four1.jpg</file>
+        <file>tu/fourth2.jpg</file>
+        <file>tu/ice.jpg</file>
+        <file>tu/monster2.jpg</file>
+        <file>tu/monster3.jpg</file>
+        <file>tu/moster1.jpg</file>
+        <file>tu/poison.jpg</file>
+        <file>tu/second1.jpg</file>
+        <file>tu/second2.jpg</file>
+        <file>tu/skill.jpg</file>
+        <file>tu/takeng.png</file>
+        <file>tu/third1.jpg</file>
+        <file>tu/third2.jpg</file>
+        <file>tu/upup.jpg</file>
+        <file>tu/zidan.jpg</file>
+        <file>tu/zidancommon.jpg</file>
+        <file>tu/zidanpoison.jpg</file>
+        <file>tu/zidanpower.jpg</file>
+    </qresource>
+</RCC>

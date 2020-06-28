@@ -1,5 +1,4 @@
 #include "start.h"
-#include"taposition.h"
 #include <QApplication>
 
 int main(int argc, char *argv[])

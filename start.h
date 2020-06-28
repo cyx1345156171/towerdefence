@@ -2,6 +2,8 @@
 #define START_H
 
 #include <QWidget>
+#include<QMediaPlayer>
+
 
 namespace Ui {
 class start;

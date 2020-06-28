@@ -1,8 +1,9 @@
 #include "commontower.h"
 
-commontower::commontower(int x1,int x2):ta(x1,x2)
+commontower::commontower(int x1,int x2):ta(x1,x2,0)
 {
-    setpicture(QPixmap(":/common.png"));
-    setran(100);
-    setatt(15);
+    setpicture(QPixmap(":/tu/first1.jpg"));
+    setran(200);
+    setatt(30);
 }
+

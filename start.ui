@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>569</width>
-    <height>426</height>
+    <width>1282</width>
+    <height>671</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,10 +16,10 @@
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>200</x>
-     <y>170</y>
-     <width>141</width>
-     <height>61</height>
+     <x>290</x>
+     <y>190</y>
+     <width>291</width>
+     <height>121</height>
     </rect>
    </property>
    <property name="text">
@@ -29,10 +29,10 @@
   <widget class="QPushButton" name="pushButton2">
    <property name="geometry">
     <rect>
-     <x>190</x>
-     <y>270</y>
-     <width>171</width>
-     <height>71</height>
+     <x>410</x>
+     <y>370</y>
+     <width>431</width>
+     <height>161</height>
     </rect>
    </property>
    <property name="text">
@@ -42,14 +42,14 @@
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>140</x>
-     <y>50</y>
-     <width>311</width>
-     <height>71</height>
+     <x>200</x>
+     <y>30</y>
+     <width>631</width>
+     <height>161</height>
     </rect>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:36pt; font-weight:600;&quot;&gt;真男人战斗&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:72pt; font-weight:600; color:#55ff7f;&quot;&gt;JOJO大冒险&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
  </widget>
